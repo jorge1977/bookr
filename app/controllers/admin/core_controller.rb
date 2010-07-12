@@ -16,5 +16,6 @@ class Admin::CoreController < ApplicationController
   set_module :categories
   set_module :tags
   set_module :packs
+  set_module :awards
 end
 

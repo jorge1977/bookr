@@ -7,6 +7,7 @@ ActionController::Routing::Routes.draw do |map|
     admin.resources :categories
     admin.resources :tags
     admin.resources :packs
+    admin.resources :awards
   end
 
   map.resource  :account, :controller => "users"
